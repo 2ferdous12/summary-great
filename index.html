@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise</title>
+<style>
+    p{
+        font-family: arial;
+    }
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-top: 20px;
+}
+.header{
+display: flex;
+   
+   height: 55px;
+   justify-content: space-between;
+   margin-left: 15px;
+}
+.left-section{
+display: flex;
+
+width: 250px;
+
+}
+
+.middle-section{
+
+    display: flex;
+background-color:rgba(0, 0, 0, 0);
+
+left: 250px;
+right: 0;
+top: 0;
+bottom: 0;
+padding-left: 30px;
+margin-top: 40px;
+flex-shrink: 0;
+}
+
+.style-preview{
+    display: block;
+background-color: rgb(59, 24, 214);
+height: 350px;
+width: 400px;
+border-bottom-width:1px ;
+border-bottom-style:solid ;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius:30px ;
+border: none;
+margin-bottom: 10px;
+
+
+    }
+    .title-1{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 150px;
+        padding-top: 15px ;
+    }
+    .button-style{
+        margin-left: 130px;
+        background-color: rgb(65, 30, 221);
+        height: 140px;
+        width: 140px;
+        border-radius: 73px;
+        border-style: solid;
+        border: none;
+    }
+    .title-math{
+        font-weight: bold;
+        margin-top: 3px;
+        font-size: 45px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .title-100{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+    }
+    .title-3{
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        padding-left: 162px;
+        margin-bottom: 5px;
+        
+    }
+    .title-4{
+        color: white;
+      width: 295px;
+      padding-left: 75px;
+      margin-bottom: 15px;
+      
+    }
+
+
+    .last-preview{
+        width: 400px ;
+        background-color: rgb(255, 252, 252);
+        height: 480px;
+        border-bottom-width:1px ;
+border-top-style:solid ;
+border-top-left-radius:30px ;
+border-top-right-radius:30px ;
+border: none;
+margin-top: 5px;
+    }
+    .title-5{
+       padding-top: 20px;
+       color: rgba(0, 0, 0, 0.719);
+       padding-left: 20px;
+       font-size: 19px;
+    }
+    .button-1{
+        background-color: rgba(248, 239, 239, 0.973);
+        height: 50PX;
+        width: 350PX;
+        border-style: solid;
+        border: none;
+        border-radius: 8PX;
+        margin-left: 22px;
+        margin-top: 22px;
+       
+    }
+    .p-p{
+color: red;
+display: inline-block;
+font-size: 17px;
+
+
+margin-left: -50px;
+    }
+    .main-title{
+       display: inline-block; 
+       margin-left: 160px;
+       color: rgba(0, 0, 0, 0.774);
+       
+     
+    }
+    .last-c{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    .last-d{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+        margin-right: -50px;
+    }
+    .button-2{
+        background-color: rgb(240, 231, 231);
+        height: 50PX;
+        width: 350PX;
+        border-style: solid;
+        border: none;
+        border-radius: 8PX;
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+    .p-p-1{
+color: rgb(172, 147, 5);
+display: inline-block;
+font-size: 17px;
+
+
+margin-left: -50px;
+    }
+    .main-title-1{
+       display: inline-block; 
+       margin-left: 160px;
+       color: rgba(0, 0, 0, 0.774);
+       
+     
+    }
+    .last-c-1{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    .last-d-1{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+        margin-right: -50px;
+    }
+
+
+    .button-1-2{
+        background-color: rgb(239, 245, 239);
+        height: 50PX;
+        width: 350PX;
+        border-style: solid;
+        border: none;
+        border-radius: 8PX;
+        margin-left: 22px;
+        margin-top: 17px;
+       
+    }
+    .p-p-2{
+color: rgb(0, 128, 85);
+display: inline-block;
+font-size: 17px;
+
+
+margin-left: -50px;
+    }
+    .main-title-2{
+       display: inline-block; 
+       margin-left: 160px;
+       color: rgba(0, 0, 0, 0.774);
+       
+     
+    }
+    .last-c-2{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    .last-d-2{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+        margin-right: -60px;
+    }
+
+    .button-1-4{
+        background-color: rgba(243, 220, 220, 0.973);
+        height: 50PX;
+        width: 350PX;
+        border-style: solid;
+        border: none;
+        border-radius: 8PX;
+        margin-left: 22px;
+        margin-top: 22px;
+       
+    }
+    .p-p-4{
+color: red;
+display: inline-block;
+font-size: 17px;
+
+
+margin-left: -55px;
+    }
+    .main-title-4{
+       display: inline-block; 
+       margin-left: 160px;
+       color: rgba(0, 0, 0, 0.774);
+       
+     
+    }
+    .last-c-4{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    .last-d-4{
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        margin-left: 3px;
+        margin-right: -65px;
+    }
+    .by-button{
+        height: 60px;
+        width: 320px;
+        background-color: rgb(43, 43, 104);
+        border-radius: 25px;
+        margin-top: 40px;
+        margin-left: 40px;
+        border-style: solid;
+        border: none;
+    }
+    .bye{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+.right-section{
+display: flex;
+flex-shrink: 0;
+width: 250px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <div class="left-section"> </div>
+    <div class="middle-section">
+        <div class="style-preview">
+            <p class="title-1">Your Result</p>
+            <button class="button-style">
+            <p class="title-math">76</p>
+            <p class="title-100">of 100</p>
+            </button>
+            <p class="title-3">Great</p>
+            <p class="title-4">You scored higher then 65% of the people who have taken these tests.</p>
+            <div class="last-preview">
+                <p class="title-5"><strong>Summary</strong></p>
+                <button class="button-1">
+                <div class="p-p">Reaction</div>
+                
+                <div class="main-title"><strong>80</strong></div>
+                <div class="last-c">/</div>
+                <div class="last-d">100</div>
+                </button>
+                
+                <button class="button-2">
+                    <div class="p-p-1">Memory</div>
+                    
+                    <div class="main-title-1"><strong>92</strong></div>
+                    <div class="last-c-1">/</div>
+                    <div class="last-d-1">100</div>
+                    </button>
+                
+                    <button class="button-1-2">
+                        <div class="p-p-2">Verbal</div>
+                        
+                        <div class="main-title-2"><strong>61</strong></div>
+                        <div class="last-c-2">/</div>
+                        <div class="last-d-2">100</div>
+                        </button>
+                
+                        <button class="button-1-4">
+                            <div class="p-p-4">visual</div>
+                            
+                            <div class="main-title-4"><strong>72</strong></div>
+                            <div class="last-c-4">/</div>
+                            <div class="last-d-4">100</div>
+                      
+                            <button class="by-button">
+                               <p class="bye"> Continue</p></button>
+                 </button>
+                </div>
+            
+    
+        </div>
+<p></p>
+     </div>
+    <div class="right-section"></div>
+
+    
+</div> 
+
+</body>
+</html>
